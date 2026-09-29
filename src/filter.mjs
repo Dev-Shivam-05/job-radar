@@ -15,6 +15,7 @@ const HOURLY_TEXT = /\b(hourly|per hour|freelance|contract role|contract[- ]to[-
 // A role whose only "place" is Remote (PostHog lists "Remote · Remote · Remote") names no country, so it is kept;
 // "Remote (US)" or "Remote - United States" names one and is not.
 export function locationOk(job) {
+  if (job.locationPending) return true; // Workday "2 Locations": decided after the detail call
   const loc = job.location ?? '';
   if (INDIA.test(loc)) return true;
   const places = loc.split(/[·,|/]/).map((p) => p.trim()).filter((p) => p && !WORK_MODE.test(p));

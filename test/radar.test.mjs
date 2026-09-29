@@ -175,3 +175,24 @@ it('W5: nothing in src/ reads Telegram updates', () => {
     assert.doesNotMatch(readFileSync(f, 'utf8'), /['"`/]getUpdates/, f);
   }
 });
+
+it('Workday "2 Locations": kept until the detail call, then judged by the real places', async () => {
+  const c = { name: 'W', ats: 'workday', slug: 'w', wd: 'wd1', site: 'S' };
+  const [j] = boards.fromWorkday(c, [{ title: 'Software Engineer', locationsText: '2 Locations', postedOn: 'Posted Today', externalPath: '/job/1' }], T);
+  assert.equal(dropReason(j), null);
+  const india = await boards.enrich(j, { get: async () => ({ body: { jobPostingInfo: { location: 'Pune, India', additionalLocations: ['Berlin'] } } }) });
+  assert.equal(dropReason(india), null);
+  const us = await boards.enrich(j, { get: async () => ({ body: { jobPostingInfo: { location: 'Austin, TX', additionalLocations: ['Boston, MA'] } } }) });
+  assert.equal(dropReason(us), 'location');
+});
+
+it('a day-only "Posted today" does not outrank a role with an exact time from minutes ago', async () => {
+  process.env.RADAR_STATE_DIR = mkdtempSync(join(tmpdir(), 'radar-'));
+  const sent = [];
+  const jobs = [
+    { key: 'workday:w:1', company: 'W', ats: 'workday', title: 'Software Engineer', location: 'Pune, India', url: 'https://w/1', postedMs: T, dayOnly: true, ageDays: 0 },
+    { key: 'ashby:a:1', company: 'A', ats: 'ashby', title: 'Software Engineer', location: 'Pune, India', url: 'https://a/1', postedMs: T - 10 * 60000, dayOnly: false },
+  ];
+  await runRadar({ env: { RADAR: 'on' }, nowMs: T, send: async (m) => sent.push(m), sources: [{ key: 's', host: 's', read: async () => jobs }] });
+  assert.match(sent[0], /https:\/\/a\/1/);
+});

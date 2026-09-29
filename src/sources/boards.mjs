@@ -78,8 +78,10 @@ export function workdayAgeDays(text) {
 // Workday gives days, not times: postedMs is "now minus N days" and the message says "Posted today" (W3).
 export const fromWorkday = (c, postings, nowMs) => postings.map((j) => {
   const age = workdayAgeDays(j.postedOn);
+  // "2 Locations" names no place; the detail call fills it in, and the location rule runs again then.
+  const several = /^\d+ locations?$/i.test(j.locationsText ?? '');
   return job(c, j.externalPath, {
-    title: j.title ?? '', location: j.locationsText ?? '', text: '',
+    title: j.title ?? '', location: several ? '' : (j.locationsText ?? ''), locationPending: several, text: '',
     url: `https://${c.slug}.${c.wd}.myworkdayjobs.com/en-US/${c.site}${j.externalPath}`,
     postedMs: age == null ? null : nowMs - age * DAY_MS, dayOnly: age != null, ageDays: age, employment: null,
     detail: `https://${c.slug}.${c.wd}.myworkdayjobs.com/wday/cxs/${c.slug}/${c.site}${j.externalPath}`,
@@ -116,5 +118,11 @@ export async function enrich(j, { get }) {
   if (j.ats === 'workday') text = htmlToText(body?.jobPostingInfo?.jobDescription ?? '');
   else if (j.ats === 'greenhouse') text = htmlToText(htmlToText(body?.content ?? '')); // escaped HTML: decode twice
   else text = Object.values(body?.jobAd?.sections ?? {}).map((s) => `${s.title ?? ''}\n${htmlToText(s.text ?? '')}`).join('\n');
-  return { ...j, text: text || j.text, employment: j.employment ?? body?.jobPostingInfo?.timeType ?? null };
+  const out = { ...j, text: text || j.text, employment: j.employment ?? body?.jobPostingInfo?.timeType ?? null };
+  if (j.locationPending) {
+    const info = body?.jobPostingInfo ?? {};
+    out.location = [info.location, ...(info.additionalLocations ?? [])].filter(Boolean).join(' · ');
+    out.locationPending = false;
+  }
+  return out;
 }

@@ -99,6 +99,11 @@ export async function runRadar({ get = requestJson, env = process.env, send = se
     fresh[i].hourly = hourly(fresh[i]) || Boolean(fresh[i].hourlyPay);
     delete fresh[i].detail;
   }
+  // A Workday role listed as "2 Locations" is kept only if its real locations pass (or could not be read).
+  for (let i = fresh.length - 1; i >= 0; i--) {
+    if (fresh[i].locationPending) fresh[i].location = 'Several locations';
+    else if (dropReason(fresh[i])) fresh.splice(i, 1);
+  }
 
   const pending = loadPending();
   for (const job of fresh) pending[job.key] = job;
@@ -113,7 +118,9 @@ export async function runRadar({ get = requestJson, env = process.env, send = se
   if (isQuiet(t)) {
     out.held = Object.keys(pending).length;
   } else {
-    const newest = (j) => j.postedMs ?? j.firstSeenMs;
+    // A day-only "Posted today" is stamped with the read time; placing it mid-day keeps it from outranking a role
+    // posted 10 minutes ago with an exact time.
+    const newest = (j) => (j.postedMs ?? j.firstSeenMs) - (j.dayOnly ? 12 * HOUR_MS : 0);
     const queue = Object.values(pending).sort((a, b) => newest(b) - newest(a));
     let room = MAX_SENT_PER_DAY - sentOn(t.date);
     for (const job of queue) {
