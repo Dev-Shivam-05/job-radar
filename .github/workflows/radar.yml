@@ -1,0 +1,46 @@
+name: radar
+
+# Started every 20 minutes by a cron-job.org job through workflow_dispatch (GitHub's own `schedule` starts hours
+# late). One run at a time: two runs would read the same boards and race on the state branch.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: radar
+  cancel-in-progress: false
+
+jobs:
+  run:
+    # RADAR unset or anything but "on" skips the job before a runner starts.
+    if: vars.RADAR == 'on'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Check out state branch
+        uses: actions/checkout@v5
+        with:
+          ref: state
+          path: state
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+
+      - name: Git identity for state commits
+        working-directory: state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Run radar
+        env:
+          RADAR: ${{ vars.RADAR }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: node src/run.mjs
+

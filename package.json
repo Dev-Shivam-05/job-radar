@@ -1,0 +1,14 @@
+{
+  "name": "job-radar",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Polls public job-board APIs every 20 minutes and sends new developer roles (India or remote) to one Telegram chat.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "radar": "node src/run.mjs",
+    "test": "node --test \"test/**/*.test.mjs\""
+  }
+}

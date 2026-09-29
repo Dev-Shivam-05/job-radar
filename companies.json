@@ -1,0 +1,27 @@
+{
+  "_note": "Phase 18 R1 seed list. Every board answered its public job-board API on 2026-09-28 with engineering roles in India or remote. Add more from Telegram with /company <url>.",
+  "companies": [
+    { "name": "Plane", "ats": "ashby", "slug": "plane", "paid_trial": true, "why": "task.png: Apply, Talk, Build (a paid trial, 2 to 5 days), Decide", "show_all_first_read": true },
+    { "name": "AbhiBus", "ats": "smartrecruiters", "slug": "AbhiBus", "why": "task.txt", "show_all_first_read": true },
+    { "name": "Infobip", "ats": "workday", "slug": "infobip", "wd": "wd3", "site": "InfobipCareers", "why": "task.txt", "show_all_first_read": true },
+    { "name": "GitLab", "ats": "greenhouse", "slug": "gitlab" },
+    { "name": "Supabase", "ats": "ashby", "slug": "supabase" },
+    { "name": "PostHog", "ats": "ashby", "slug": "posthog" },
+    { "name": "n8n", "ats": "ashby", "slug": "n8n" },
+    { "name": "Vercel", "ats": "greenhouse", "slug": "vercel" },
+    { "name": "Replit", "ats": "ashby", "slug": "replit" },
+    { "name": "Linear", "ats": "ashby", "slug": "linear" },
+    { "name": "Groww", "ats": "greenhouse", "slug": "groww" },
+    { "name": "Sarvam AI", "ats": "ashby", "slug": "sarvam" },
+    { "name": "Zeta", "ats": "lever", "slug": "zeta" },
+    { "name": "Zapier", "ats": "ashby", "slug": "zapier" },
+    { "name": "Freshworks", "ats": "smartrecruiters", "slug": "freshworks" },
+    { "name": "MongoDB", "ats": "greenhouse", "slug": "mongodb" },
+    { "name": "HackerRank", "ats": "greenhouse", "slug": "hackerrank" },
+    { "name": "Atlan", "ats": "ashby", "slug": "atlan" },
+    { "name": "Perplexity", "ats": "ashby", "slug": "perplexity" },
+    { "name": "Twilio", "ats": "greenhouse", "slug": "twilio" },
+    { "name": "Remote", "ats": "greenhouse", "slug": "remotecom" },
+    { "name": "Elastic", "ats": "greenhouse", "slug": "elastic" }
+  ]
+}
