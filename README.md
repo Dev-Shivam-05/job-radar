@@ -23,6 +23,8 @@ Not read: LinkedIn, Naukri, Indeed, Glassdoor, Wellfound, Upwork, Freelancer.com
 
 ## How it runs
 `.github/workflows/radar.yml` is started by a cron-job.org job through `workflow_dispatch` at :00, :20 and :40.
+GitHub's own `schedule` at the same minutes is a fallback: it starts late, but it keeps the radar alive if the
+cron-job.org job is missing or its token has expired.
 It runs only when the repository variable `RADAR` is `on`. Secrets: `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`.
 
 State is on the `state` branch: `sources.json`, `seen/`, `pending.json`, `days/<date>.jsonl` (what was sent or went
