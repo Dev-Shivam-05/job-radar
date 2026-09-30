@@ -4,6 +4,11 @@ name: radar
 # late). One run at a time: two runs would read the same boards and race on the state branch.
 on:
   workflow_dispatch:
+  # Fallback only: GitHub's scheduler starts late and skips slots, but a public repo pays no minutes for it, so the
+  # radar keeps running if the cron-job.org job is missing or its token expires. The concurrency group below queues it
+  # behind a cron-job.org run instead of racing it.
+  schedule:
+    - cron: '0,20,40 * * * *'
 
 permissions:
   contents: write
