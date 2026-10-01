@@ -36,9 +36,28 @@ export function commitState(message) {
   git(['add', '-A']);
   if (!git(['status', '--porcelain']).trim()) return false;
   git(['commit', '-q', '-m', message]);
-  if (process.env.RADAR_PUSH !== '0') {
-    git(['pull', '-q', '--rebase', 'origin', 'state']);
-    git(['push', '-q', 'origin', 'HEAD:state']);
-  }
+  if (process.env.RADAR_PUSH !== '0') pushWithRetry();
   return true;
+}
+
+// The messages are already sent when state is pushed, so a lost push means the next run sends the same roles again.
+// The usual cause is the engine pushing a /company addition between our pull and our push: pull again and retry.
+export const PUSH_ATTEMPTS = 4;
+function pushWithRetry() {
+  for (let attempt = 1; ; attempt++) {
+    try {
+      git(['pull', '-q', '--rebase', 'origin', 'state']);
+      git(['push', '-q', 'origin', 'HEAD:state']);
+      return;
+    } catch (err) {
+      try {
+        git(['rebase', '--abort']);
+      } catch {
+        /* no rebase in progress */
+      }
+      if (attempt >= PUSH_ATTEMPTS) throw err;
+      // 1, 2, 4 s. A synchronous wait is fine: this runs once, at the very end of a run.
+      Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, 1000 * 2 ** (attempt - 1));
+    }
+  }
 }
