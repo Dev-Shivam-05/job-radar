@@ -1,6 +1,7 @@
 // State on the `state` branch (spec "How the pieces talk"):
-//   sources.json            { "<source key>": { first_read, last_read, error } }
-//   seen/<source key>.json  { "<job key>": first-seen ISO }, one file per source so a run rewrites only what changed
+//   sources.json            { "<source key>": { first_read, last_read, error, error_at } }
+//   seen/<source key>.json  { "<job key>": last-confirmed ISO }, one file per source so a run rewrites only what changed
+//   run.json                { started_at } of the last run, so a GitHub fallback run right after one is skipped
 //   pending.json            roles held by quiet hours, sent at 07:00 IST if still ≤ 72 h old
 //   days/<IST date>.jsonl   every new role that passed the filters: sent / over_limit (the engine reads this for
 //                           /apply_<code> and the nightly status line)
