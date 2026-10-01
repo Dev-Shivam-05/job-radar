@@ -11,7 +11,8 @@ import { enrich, readBoard } from './sources/boards.mjs';
 import { readHimalayas } from './sources/himalayas.mjs';
 import { readJobicy } from './sources/jobicy.mjs';
 import {
-  allCompanies, appendDay, companyKey, loadPending, loadSeen, loadSources, savePending, saveSeen, saveSources, sentOn,
+  SEEN_KEEP_DAYS, addSent, allCompanies, appendDay, companyKey, isDuplicate, loadPending, loadRun, loadSeen, loadSources,
+  savePending, saveRun, saveSeen, saveSources, sentOn, sentRolesOn,
 } from './store.mjs';
 import { sendMessage } from './telegram.mjs';
 
@@ -23,6 +24,7 @@ const QUIET_UNTIL = 7 * 60;
 export const isQuiet = (t) => t.minutes >= QUIET_FROM || t.minutes < QUIET_UNTIL;
 // A run starts every 20 min; a source due "every hour" must not slip to 80 min because a run started 1 min early.
 const SLACK_MS = 5 * 60 * 1000;
+const RUN_EVERY_MS = 20 * 60 * 1000;
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms * Number(process.env.RADAR_RETRY_SCALE ?? 1)));
 
@@ -44,6 +46,13 @@ export function sourceList() {
 
 export async function runRadar({ get = requestJson, env = process.env, send = sendMessage, nowMs = now().getTime(), sources = sourceList() } = {}) {
   if (env.RADAR !== 'on') return { skipped: 'RADAR is not on' }; // before any network call
+  // GitHub's `schedule` is only a fallback for the cron-job.org dispatches: it runs when they have stopped, not as a
+  // second full read of 300 boards right after one.
+  const lastRun = loadRun().started_at;
+  if (env.GITHUB_EVENT_NAME === 'schedule' && lastRun && nowMs - Date.parse(lastRun) < RUN_EVERY_MS - SLACK_MS) {
+    return { skipped: `fallback run, last run started ${lastRun}` };
+  }
+  saveRun({ started_at: new Date(nowMs).toISOString() });
   const startedMs = Date.now();
   const t = ist(new Date(nowMs));
   const state = loadSources();
@@ -62,7 +71,12 @@ export async function runRadar({ get = requestJson, env = process.env, send = se
     for (const job of jobs) {
       if (dropReason(job)) continue;
       out.kept++;
-      if (seen[job.key]) continue;
+      if (seen[job.key]) {
+        // A role still listed must not age out of `seen` and come back as new (undated roles have no 72 h rule).
+        // Refreshed only at half the keep time, so a run does not rewrite every seen file.
+        if (nowMs - Date.parse(seen[job.key]) > (SEEN_KEEP_DAYS * DAY_MS) / 2) seen[job.key] = nowIso;
+        continue;
+      }
       seen[job.key] = nowIso;
       if (isFresh(job, nowMs, firstRead)) fresh.push({ ...job, firstSeenMs: nowMs });
     }
@@ -77,8 +91,9 @@ export async function runRadar({ get = requestJson, env = process.env, send = se
         state[s.key] = { first_read: state[s.key]?.first_read ?? nowIso, last_read: nowIso, error: null };
         out.read++;
       } catch (err) {
-        // A failing board is tried again next run; its first read is not marked until it succeeds.
-        state[s.key] = { ...state[s.key], last_read: nowIso, error: err.message.slice(0, 200) };
+        // A failing board is tried again next run; its first read is not marked until it succeeds. last_read stays as
+        // it was, or one 429 from Himalayas (read once a day) would skip it for a whole day.
+        state[s.key] = { ...state[s.key], error_at: nowIso, error: err.message.slice(0, 200) };
         out.errors.push(`${s.key}: ${err.message.slice(0, 160)}`);
       }
     }
@@ -109,7 +124,7 @@ export async function runRadar({ get = requestJson, env = process.env, send = se
   for (const job of fresh) pending[job.key] = job;
   for (const [key, job] of Object.entries(pending)) {
     // An undated role ages from when it was first seen.
-    if (!isFresh({ postedMs: job.postedMs ?? job.firstSeenMs }, nowMs, false)) {
+    if (!isFresh({ postedMs: job.postedMs ?? job.firstSeenMs, earliestMs: job.earliestMs }, nowMs, false)) {
       delete pending[key];
       out.expired++;
     }
@@ -123,7 +138,14 @@ export async function runRadar({ get = requestJson, env = process.env, send = se
     const newest = (j) => (j.postedMs ?? j.firstSeenMs) - (j.dayOnly ? 12 * HOUR_MS : 0);
     const queue = Object.values(pending).sort((a, b) => newest(b) - newest(a));
     let room = MAX_SENT_PER_DAY - sentOn(t.date);
+    // The same role on a company board and on Himalayas or Jobicy has two keys; send it once a day.
+    const sentRoles = sentRolesOn(t.date);
     for (const job of queue) {
+      if (isDuplicate(sentRoles, job)) {
+        delete pending[job.key];
+        out.duplicate = (out.duplicate ?? 0) + 1;
+        continue;
+      }
       if (room <= 0) {
         appendDay(t.date, job, 'over_limit', nowMs);
         delete pending[job.key];
@@ -138,6 +160,7 @@ export async function runRadar({ get = requestJson, env = process.env, send = se
         break;
       }
       appendDay(t.date, job, 'sent', nowMs);
+      addSent(sentRoles, job);
       delete pending[job.key];
       out.sent++;
       room--;

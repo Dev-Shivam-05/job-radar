@@ -36,6 +36,11 @@ export const loadSources = () => readJson('sources.json', {});
 export const saveSources = (s) => writeJson('sources.json', s);
 export const loadPending = () => readJson('pending.json', {});
 export const savePending = (p) => writeJson('pending.json', p);
+export const loadRun = () => readJson('run.json', {});
+export const saveRun = (r) => writeJson('run.json', r);
+
+// Company + title, letters and digits only: the same role read from a board and from Himalayas has two keys.
+export const roleKey = (job) => `${job.company ?? ''}|${job.title ?? ''}`.toLowerCase().replace(/[^a-z0-9|]+/g, '');
 
 export function appendDay(date, job, status, nowMs) {
   const row = {
@@ -43,8 +48,19 @@ export function appendDay(date, job, status, nowMs) {
     location: job.location, url: job.url, posted_at: job.postedMs ? new Date(job.postedMs).toISOString() : null,
     hourly: Boolean(job.hourly), status, sent: status === 'sent',
   };
+  // Workday/Workable give a day, not a time: posted_at is then an estimate, and age_days is what the board said.
+  if (job.dayOnly) Object.assign(row, { posted_day_only: true, age_days: job.ageDays ?? null });
   if (row.sent) Object.assign(row, { code: codeOf(job), text: String(job.text ?? '').slice(0, 4000) });
   appendJsonl(`days/${date}.jsonl`, row);
 }
 
 export const sentOn = (date) => readJsonl(`days/${date}.jsonl`).filter((r) => r.sent).length;
+// roleKey → the sources it was sent from today. One company can list two roles with one title (two cities), so only
+// the same title from a different source counts as a duplicate.
+export function sentRolesOn(date) {
+  const roles = new Map();
+  for (const r of readJsonl(`days/${date}.jsonl`).filter((x) => x.sent)) roles.set(roleKey(r), new Set([...(roles.get(roleKey(r)) ?? []), r.ats]));
+  return roles;
+}
+export const isDuplicate = (roles, job) => [...(roles.get(roleKey(job)) ?? [])].some((ats) => ats !== job.ats);
+export const addSent = (roles, job) => roles.set(roleKey(job), new Set([...(roles.get(roleKey(job)) ?? []), job.ats]));

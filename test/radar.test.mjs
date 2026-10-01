@@ -167,6 +167,74 @@ describe('run', () => {
     await runRadar({ env, nowMs: T + 60 * 60000, send: async () => {}, sources: s });
     assert.equal(reads, 2);
   });
+
+  it('a failed read of a daily source is tried again next run, not a day later', async () => {
+    let reads = 0;
+    const s = [{ key: 'himalayas', host: 'himalayas', every: 24 * H, read: async () => { reads++; if (reads === 2) throw new Error('HTTP 429'); return []; } }];
+    await runRadar({ env, nowMs: T, send: async () => {}, sources: s }); // ok
+    await runRadar({ env, nowMs: T + 24 * H, send: async () => {}, sources: s }); // 429
+    await runRadar({ env, nowMs: T + 24 * H + 20 * 60000, send: async () => {}, sources: s }); // retried
+    assert.equal(reads, 3);
+  });
+
+  it('a scheduled fallback run right after a cron-job.org run is skipped; a dispatch never is', async () => {
+    let reads = 0;
+    const s = [{ key: 'b', host: 'b', read: async () => { reads++; return []; } }];
+    await runRadar({ env: { RADAR: 'on', GITHUB_EVENT_NAME: 'workflow_dispatch' }, nowMs: T, send: async () => {}, sources: s });
+    const skipped = await runRadar({ env: { RADAR: 'on', GITHUB_EVENT_NAME: 'schedule' }, nowMs: T + 10 * 60000, send: async () => {}, sources: s });
+    assert.match(skipped.skipped, /fallback run/);
+    await runRadar({ env: { RADAR: 'on', GITHUB_EVENT_NAME: 'workflow_dispatch' }, nowMs: T + 12 * 60000, send: async () => {}, sources: s });
+    await runRadar({ env: { RADAR: 'on', GITHUB_EVENT_NAME: 'schedule' }, nowMs: T + 60 * 60000, send: async () => {}, sources: s });
+    assert.equal(reads, 3);
+  });
+
+  it('the same role from a board and from Himalayas is sent once', async () => {
+    const sent = [];
+    const board = role(1, T - H, { title: 'Software Engineer (Backend)' });
+    const himalayas = { ...role(2, T - H), key: 'himalayas:99', ats: 'himalayas', title: 'Software Engineer - Backend' };
+    const r = await runRadar({ env, nowMs: T, send: async (m) => sent.push(m), sources: source(() => [board, himalayas]) });
+    assert.equal(r.sent, 1);
+    assert.equal(r.duplicate, 1);
+  });
+
+  it('day-only rows say so in the day file', async () => {
+    const wd = { ...role(1, T), key: 'workday:w:1', ats: 'workday', dayOnly: true, ageDays: 0, earliestMs: T - 24 * H };
+    await runRadar({ env, nowMs: T, send: async () => {}, sources: source(() => [wd]) });
+    const [row] = day('2026-09-30');
+    assert.equal(row.posted_day_only, true);
+    assert.equal(row.age_days, 0);
+  });
+});
+
+it('W2 for day-only dates: "Posted 3 Days Ago" is not fresh, "Posted 2 Days Ago" is', () => {
+  const wc = { name: 'W', ats: 'workday', slug: 'w', wd: 'wd1', site: 'S' };
+  const [three, two] = boards.fromWorkday(wc, [
+    { title: 'Software Engineer', locationsText: 'Pune, India', postedOn: 'Posted 3 Days Ago', externalPath: '/job/3' },
+    { title: 'Software Engineer', locationsText: 'Pune, India', postedOn: 'Posted 2 Days Ago', externalPath: '/job/2' },
+  ], T);
+  assert.equal(isFresh(three, T, true), false);
+  assert.equal(isFresh(two, T, true), true);
+});
+
+it('rules: recruiters, sales and marketing are not developer roles; "IN" is India', () => {
+  assert.equal(dropReason({ title: 'Engineering Recruiter', location: 'Bengaluru' }), 'role');
+  assert.equal(dropReason({ title: 'Software Sales Representative', location: 'Pune' }), 'role');
+  assert.equal(dropReason({ title: 'Marketing Automation Specialist', location: 'Remote' }), 'role');
+  assert.equal(dropReason({ title: 'Sales Engineer', location: 'Mumbai, India' }), null);
+  assert.equal(dropReason({ title: 'Software Engineer', location: 'Remote, IN' }), null);
+  assert.equal(dropReason({ title: 'Software Engineer', location: 'Bhopal, IN' }), null);
+  assert.equal(dropReason({ title: 'Software Engineer', location: 'Austin, TX' }), 'location');
+});
+
+it('W8: no hourly tag from a link path or "not a contract role"', () => {
+  assert.equal(hourly({ title: 'Developer', employment: 'FullTime', text: 'Benefits: https://example.com/hr/benefits' }), false);
+  assert.equal(hourly({ title: 'Developer', employment: 'FullTime', text: 'This is not a contract role.' }), false);
+  assert.equal(hourly({ title: 'Developer', employment: 'FullTime', text: 'Rate: 40 / hr' }), true);
+});
+
+it('an out-of-range numeric entity does not throw', async () => {
+  const { htmlToText } = await import('../src/lib/html.mjs');
+  assert.equal(htmlToText('a &#1114112; b &#x110000; &#65;'), 'a &#1114112; b &#x110000; A');
 });
 
 it('W5: nothing in src/ reads Telegram updates', () => {

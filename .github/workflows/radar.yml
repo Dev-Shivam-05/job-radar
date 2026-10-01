@@ -6,7 +6,8 @@ on:
   workflow_dispatch:
   # Fallback only: GitHub's scheduler starts late and skips slots, but a public repo pays no minutes for it, so the
   # radar keeps running if the cron-job.org job is missing or its token expires. The concurrency group below queues it
-  # behind a cron-job.org run instead of racing it.
+  # behind a cron-job.org run instead of racing it, and src/run.mjs skips a scheduled run that comes within 15 minutes
+  # of the last run, so it does not add a second full read when cron-job.org is working.
   schedule:
     - cron: '0,20,40 * * * *'
 
