@@ -52,7 +52,7 @@ export const fromWorkable = (c, body, nowMs) => (body?.jobs ?? []).map((j) => {
   const day = ms(j.published_on ?? j.created_at);
   return job(c, j.shortcode, {
     title: j.title ?? '', location: [j.city, j.state, j.country, ...(j.locations ?? []).map((l) => l.country), j.telecommuting ? 'Remote' : null].filter(Boolean).join(' · '),
-    text: '', url: j.url ?? j.shortlink, postedMs: day, dayOnly: day != null, ageDays: day == null ? null : Math.max(0, Math.floor((nowMs - day) / DAY_MS)),
+    text: '', url: j.url ?? j.shortlink, postedMs: day, earliestMs: day, dayOnly: day != null, ageDays: day == null ? null : Math.max(0, Math.floor((nowMs - day) / DAY_MS)),
     employment: j.employment_type ?? null,
   });
 });
@@ -83,7 +83,9 @@ export const fromWorkday = (c, postings, nowMs) => postings.map((j) => {
   return job(c, j.externalPath, {
     title: j.title ?? '', location: several ? '' : (j.locationsText ?? ''), locationPending: several, text: '',
     url: `https://${c.slug}.${c.wd}.myworkdayjobs.com/en-US/${c.site}${j.externalPath}`,
-    postedMs: age == null ? null : nowMs - age * DAY_MS, dayOnly: age != null, ageDays: age, employment: null,
+    // "Posted 2 Days Ago" can be up to 3 days old, so the 72 h rule is judged on the earliest it can have been posted.
+    postedMs: age == null ? null : nowMs - age * DAY_MS, earliestMs: age == null ? null : nowMs - (age + 1) * DAY_MS,
+    dayOnly: age != null, ageDays: age, employment: null,
     detail: `https://${c.slug}.${c.wd}.myworkdayjobs.com/wday/cxs/${c.slug}/${c.site}${j.externalPath}`,
   });
 });

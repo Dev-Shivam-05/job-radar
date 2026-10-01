@@ -6,7 +6,9 @@ export function htmlToText(html) {
     .replace(/<[^>]+>/g, '')
     .replace(/&(#x[0-9a-f]+|#\d+|[a-z]+);/gi, (m, e) => {
       if (e[0] !== '#') return ENTITIES[e.toLowerCase()] ?? m;
-      return String.fromCodePoint(e[1].toLowerCase() === 'x' ? parseInt(e.slice(2), 16) : Number(e.slice(1)));
+      const code = e[1].toLowerCase() === 'x' ? parseInt(e.slice(2), 16) : Number(e.slice(1));
+      // One posting with "&#1114112;" must not fail its whole board on every run.
+      return code <= 0x10ffff ? String.fromCodePoint(code) : m;
     })
     .replace(/\n{3,}/g, '\n\n')
     .trim();
