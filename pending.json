@@ -124,5 +124,19 @@
   "employment": "Full-time",
   "firstSeenMs": 1791397834254,
   "hourly": false
+ },
+ "smartrecruiters:BoschGroup:744000154173553": {
+  "key": "smartrecruiters:BoschGroup:744000154173553",
+  "company": "Bosch",
+  "ats": "smartrecruiters",
+  "dayOnly": false,
+  "title": "Java Full Stack with Java & Angular",
+  "location": "hosur road bangalore, , India",
+  "text": "Company Description\nBosch Global Software Technologies Private Limited is a 100% owned subsidiary of Robert Bosch GmbH, one of the world's leading global supplier of technology and services, offering end-to-end Engineering, IT and Business Solutions. With over 27,000+ associates, it’s the largest software development center of Bosch, outside Germany, indicating that it is the Technology Powerhouse of Bosch in India with a global footprint and presence in the US, Europe and the Asia Pacific region.\nJob Description\n7 to 10 years of experience in development and maintenance of Angular 16/ higher and Java17/J2EE.Expertise in software development and enterprise web applicationsExpertise in DevOps area like working with pipeline, deployment of applications and monitoring of production applications (using tools like Docker, Kubernetes, Jenkins, New Relic and App Dynamics)Sound working knowledge in Angular1.x / Angular 2.Expertise in client-server application development (both Windows and web applications). Strong in Object oriented programmingStrong in Springs framework (Spring MVC, Spring security, spring boot)Strong experience with RDBMS conceptsHands-on experience with RESTful APIExpertise in Database design – Oracle / SQL Server / MySQLKnowledge of unit testing frameworks (test-automation) like Junit and Jest/JasmineKnowledge of automation testing framework like PlaywrightProvide solution to migrate the traditional web applications to cloud native architecture (Azure/AWS), digital and sustainable developmentStrong analytical skills Structured approach towards problem solving.Bachelor of engineering in CS/EE, MCA or BE Information Science.\nQualifications\nB.E\nAdditional Information\n7 to 10 years experience",
+  "url": "https://jobs.smartrecruiters.com/BoschGroup/744000154173553",
+  "postedMs": 1791397880530,
+  "employment": "Full-time",
+  "firstSeenMs": 1791399026036,
+  "hourly": false
  }
 }
