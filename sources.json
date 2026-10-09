@@ -1,142 +1,142 @@
 {
  "ashby:supabase": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:canonical": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "workable:apna": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "smartrecruiters:BoschGroup": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "lever:hevodata": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "recruitee:tether": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "jobicy": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T06:30:33.455Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:sarvam": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:mongodb": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "workable:seekho": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "smartrecruiters:NielsenIQ": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:cursor": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:purestorage": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "lever:veeva": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:baseten": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "smartrecruiters:Endava": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:anaplan": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "lever:mindtickle": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:ema": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:celonis": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "smartrecruiters:ixigo": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "lever:100ms": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:tekion": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:digitalocean98": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "smartrecruiters:Shipsy": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:plane": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "lever:fampay": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:gleanwork": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "himalayas": {
@@ -146,1367 +146,1367 @@
  },
  "ashby:retell-ai": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "smartrecruiters:AbhiBus": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:towerresearchcapital": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "workday:sabre": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "lever:ttecdigital": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:snowflake": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:roblox": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "smartrecruiters:Continental": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "lever:zeta": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "workday:expedia": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "workday:ouryahoo": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:anyscale": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:glance": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "smartrecruiters:Grab": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "lever:gate": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:axiom": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "workday:zendesk": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:squarepointcapital": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "workday:redhat": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "lever:levelai": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "smartrecruiters:ServiceNow": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:cerebras": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:abnormalsecurity": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "lever:meesho": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:kong": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:hackerrank": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "smartrecruiters:Ubisoft2": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "lever:coupa": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:notion": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:okta": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "workday:infobip": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "smartrecruiters:Freshworks": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "lever:crypto": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:zoominfo": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "workday:salesforce": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:openai": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "workday:autodesk": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "workday:motorolasolutions": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "workday:crowdstrike": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "lever:distru": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:imc": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:signoz": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "smartrecruiters:Swiggy": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "workday:adobe": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "lever:epifi": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:sigmoid": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:atlys": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "workday:hp": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "workday:thomsonreuters": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "workday:nvidia": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "workday:paypal": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:stripe": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:cognition": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "lever:nium": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:alphasense": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:cohere": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "lever:offchainlabs": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "workday:hpe": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:automatticcareers": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:decagon": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "lever:outreach": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:cloudsek": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:demandbase": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "lever:paytm": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:gitlab": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:posthog": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "lever:cred": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:nebius": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:stickermule": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "lever:dlocal": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "workday:philips": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:netskope": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:trust-wallet": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "lever:jito": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:rubrik": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:turnkey": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "lever:palantir": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:samsara": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:unstructured": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "lever:people-ai": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:a-team": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:singlestore": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "lever:pocketfm": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:atlan": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:togetherai": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "lever:sonatype": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "workday:workday": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:blockstream": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:appian": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "lever:sophos": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:bolna": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:bitgo": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "lever:superside": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:braintrust": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:jumptrading": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:cartesia": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:payoneer": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:clerk": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:storyblok": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:gen-digital": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:whitetech": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:lightning": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:workato": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:livekit": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:zscaler": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:matter-labs": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:10alabs": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:neon": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:adyen": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:paxos": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:bitwarden": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:phantom": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:coinbase": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:railway": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:commvault": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:runpod": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:connectwise": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:smallest": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:databricks": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:socket": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:expel": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:spotdraft": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:harnessinc": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:synthesia": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:inmobi": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:uipath": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:observeai": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:airwallex": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:planetscale": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:amplitude": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:quberesearchandtechnologies": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:bland": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:smartsheet": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:buffer": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:sourcegraph91": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:checkly": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:starburst": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:circle": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:startree": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:clickhouse": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:turing": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:clickup": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:yugabyte": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:composio": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:akuity": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:confluent": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:akunacapital": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:crusoe": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:aptoslabs": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:deepgram": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:boxinc": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:deepnote": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:bybit": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:docker": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:chainguard": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:drata": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:coursera": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:duck-duck-go": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:cresta": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:elevenlabs": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:datadog": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:gainsight": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:elastic": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:harvey": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:figureai": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:helpscout": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:fivetran": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:jobber": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:karat": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:kit": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:lyft": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:lambda": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:newrelic": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:lemon-io": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:ondofinance": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:linear": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:razorpaysoftwareprivatelimited": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:llamaindex": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:sambanovasystems": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:lovable": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:magiceden": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:n8n": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:scaleai": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:nethermind": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:sentinellabs": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:novo": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:showpad": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:oplabs": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:skillsoft": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:oyster": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:thoughtworks": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:parity": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:twilio": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:perplexity": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:vonage": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:redis": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:warp": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:reka": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:wizinc": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:replit": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:zinnov": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:sierra": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:6sense": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:stellar": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:suno": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:affirm": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:surveymonkey": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:agoda": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:temporal": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:airbnb": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:testgorilla": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:anthropic": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "ashby:zapier": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:apolloio": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:arizeai": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:assemblyai": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:brave": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:braze": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:brex": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:calendly": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:circleci": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:cloudflare": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:cockroachlabs": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:coreweave": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:discord": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:doordashusa": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:druva": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:ebanx": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:equalexperts": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:fastly": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:figma": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:flexport": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:fourkites": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:globalizationpartners": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:godaddy": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:grafanalabs": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:greenhouse": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:groww": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:hightouch": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": "greenhouse failed: HTTP 404 — {\"status\":404,\"error\":\"Job not found\"}"
  },
  "greenhouse:island": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:janestreet": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:jetbrains": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:jfrog": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:khanacademy": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:labelbox": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:later": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:launchdarkly": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:mightynetworks": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:mixpanel": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:mozilla": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:tripactions": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:netlify": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:novacredit": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:okx": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:openzeppelin": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:orcasecurity": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:remotecom": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:riotgames": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:salesloft": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:sezzle": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:stabilityai": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:stackblitz": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:sumologic": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:toast": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:truecaller": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:udemy": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:vercel": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:wikimedia": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:worldquant": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:wrike": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:xai": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:zenoti": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  },
  "greenhouse:zuora": {
   "first_read": "2026-09-30T01:52:44.788Z",
-  "last_read": "2026-10-09T07:10:25.892Z",
+  "last_read": "2026-10-09T07:30:33.268Z",
   "error": null
  }
 }
