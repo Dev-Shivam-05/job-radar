@@ -1,1 +1,18 @@
-{}
+{
+ "workday:nvidia:/job/India-Bengaluru/ASIC-Design-Engineer---Performance-Monitoring_JR2027619": {
+  "key": "workday:nvidia:/job/India-Bengaluru/ASIC-Design-Engineer---Performance-Monitoring_JR2027619",
+  "company": "NVIDIA",
+  "ats": "workday",
+  "dayOnly": true,
+  "title": "ASIC Design Engineer - Performance Monitoring",
+  "location": "India, Bengaluru",
+  "locationPending": false,
+  "text": "NVIDIA System-On-Chip (SOC) group is hiring for an ASIC Design Engineer! The complexity of the chips we build has increased manifold over the years. We are now packing tens of billions of transistors in a chip to meet the growing computing demand. We are looking for a top ASIC Design Engineer to join our team. In this role, you should have real passion for RTL design implementation and methodologies that enable high quality system-level IP design.\n\nWhat you'll be doing:\nBe an integral part of the team defining and developing system-level RTL and methodologies to measure performance on the industry's leading GPUs/SOCs.\nDesign and implement RTL features - work through the entire design cycle for SOC.\nRun and debug RTL checks to ensure design quality (e.g. CDC, RDC, Lint, Synthesis, Logic-Equivalence and more)\nDefine, develop, and automate flows and methodologies to efficiently build and support a system-level IP\nWork with architects, designers, verification and SW engineers to accomplish your tasks.\n\nWhat we need to see: \nB.Tech or M.Tech in Electronics or Computer Engineering.\n3+ years of relevant industry experience.\nExperienced in RTL design (Verilog), System-On-Chip design/implementation flows, and design automation.\nGood understanding of SOC/IP (u)architecture (e.g., data flow, control, multiple clock/power domains handling, latency analysis).\nStrong coding skills in Perl, Python or other industry-standard scripting languages.\nExcellent debugging and analytical skills.\nExposure to design and verification tools (dc_shell or equivalent synthesis tools, VCS or equivalent simulation tools, debug tools like Debussy, GDB).\nGreat communication and collaboration skills to interact within the team and with cross functional teams.\nAdept at using AI tools to enhance productivity and solve complicated problems\n\nNVIDIA is widely considered one of the technology world’s most desirable employers. We employ some of the most forward-thinking and innovative people in the world. Are you passionate about joining our life’s work to amplify human imagination and intelligence? If you are creative, collaborative, and have real passion for design, methodology, and automation, we want to hear from you!\n\n#LI-Hybrid",
+  "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India-Bengaluru/ASIC-Design-Engineer---Performance-Monitoring_JR2027619",
+  "postedMs": 1791757833050,
+  "ageDays": 0,
+  "employment": "Full time",
+  "firstSeenMs": 1791757833050,
+  "hourly": false
+ }
+}
