@@ -28,5 +28,19 @@
   "employment": "FullTime",
   "firstSeenMs": 1792605033239,
   "hourly": false
+ },
+ "greenhouse:imc:5012013101": {
+  "key": "greenhouse:imc:5012013101",
+  "company": "IMC Trading",
+  "ats": "greenhouse",
+  "dayOnly": false,
+  "title": "Network Engineer",
+  "location": "Mumbai, India",
+  "text": "Join our forward-thinking team as a Network Engineer, where you will play a key role in designing, implementing, and supporting high-performance, low-latency network infrastructure.\nAt IMC, the Trading Infrastructure team is responsible for the WAN, LANs, and all low-latency connectivity to trading venues. You will work closely with Systems Engineers, internal teams, and external partners to deliver best-in-class solutions that support our trading business and help evolve our infrastructure to meet the demands of a dynamic industry.\n\nYour Core Responsibilities:\n\nDesign, implement and support the networking infrastructure. Key areas include Low-latency networking, Unicast and Multicast routing, OSPF, BGP, PIM SM, as well as things like QoS, STP, NAT, protocol tuning, etc.\n\nMonitor, guard and analyze the proper functioning of our network infrastructure. Take adaptive, retentive and corrective measures and perform structural maintenance.\n\nProactively improve our infrastructure by contributing scripts and code to our automation efforts (e.g. Bash, Python).\n\nAccurately create and maintain documentation detailing the implemented network components, as well as relevant procedures and other documentation.\n\nResponsibility for our IT security related platforms. Key areas include Palo Alto firewalls, VPNs, Security policies, etc.\n\nWork flexible hours. We are proud of the uptime of the trading environment, so every now and then you will be working outside of regular business hours to apply critical changes. This could be from your desk, your couch at home or also inside of one of our datacenters abroad.\n\nLiaise with external vendors, exchanges and providers to explore new technology solutions, implement new services or troubleshoot problems.\n\nYour Skills and Experience:\n\n5+ years of experience as a Network Engineer, with a passion for all aspects of networking\n\nProven ability to design, implement, and support high-performance networks\n\nStrong appetite for accuracy and willingness to go beyond standard textbook networking concepts\n\nCollaborative mindset with experience working closely across cross-functional teams\n\nAbility to motivate and encourage peers while maintaining a high technical standard\n\nExcellent verbal and written communication skills, including the ability to explain technical topics to both technical and non-technical stakeholders\n\nAbout Us\n\nIMC is a research-driven trading firm where quantitative modeling, machine learning, and engineering shape how modern markets are traded. A stabilizing force in markets since 1989, we provide liquidity across trading venues, delivering the best outcome in value and risk management to investors. Using our own technology and capital, we build proprietary systems and algorithms that operate across global markets. Our researchers, traders, and engineers work as a collective, combining rapid experimentation, advanced infrastructure, and real-time feedback to turn insight into execution and execution into advantage.",
+  "url": "https://job-boards.eu.greenhouse.io/imc/jobs/5012013101",
+  "postedMs": 1792609334000,
+  "employment": null,
+  "firstSeenMs": 1792609826397,
+  "hourly": false
  }
 }
