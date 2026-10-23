@@ -30,5 +30,21 @@
   "employment": "Full time",
   "firstSeenMs": 1792781426744,
   "hourly": false
+ },
+ "workday:nvidia:/job/India-Bengaluru/Mixed-Signal-Design-Engineer---RTL-and-Co-Simulation_JR2027731": {
+  "key": "workday:nvidia:/job/India-Bengaluru/Mixed-Signal-Design-Engineer---RTL-and-Co-Simulation_JR2027731",
+  "company": "NVIDIA",
+  "ats": "workday",
+  "dayOnly": true,
+  "title": "Mixed-Signal Design Engineer – RTL and Co-Simulation",
+  "location": "India, Bengaluru",
+  "locationPending": false,
+  "text": "We are seeking a Mixed-Signal Engineer to work on analog–digital co-simulation and digital RTL design for a power controller. The digital RTL implements the full control loop, including protections, fault handling, and calibration. This is a unique role with complete system-level exposure and the opportunity to influence both analog and digital design. The engineer should be flexible as priorities shift between co-simulation, RTL development, and debugging.\n \nNVIDIA is a “learning machine” that constantly evolves by adapting to new opportunities that are hard to solve, that only we can address, and that matter to the world. This is our life’s work , to amplify human creativity and intelligence. As an NVIDIAN, you’ll be immersed in a diverse, supportive environment where everyone is inspired to do their best work. Come join our diverse team and see how you can make a lasting impact on the world!\n \nWhat you'll be doing:\nBuild and run co-simulations that connect digital RTL with analog circuits or SPICE and Verilog-A models.\nEnhance and maintain the RTL for the power controller’s full digital control loop.\nVerify startup, steady-state, transient, calibration, and fault behavior at the system level in either a purely digital or a co-simulation environment.\nDebug issues across the analog–digital boundary with analog and digital designers.\nDevelop RTL behavioral models for mixed-signal blocks.\nDesign and implement control, protection, fault-handling, and calibration features.\n \nWhat we need to see:\nB.S. or MS degree in Electrical Engineering (or equivalent experience)\n1-3 years of work on analog–digital co-simulation and digital RTL design for a power controller.\nExperience designing and debugging synthesizable Verilog or SystemVerilog RTL.\nFlexibility to work across co-simulation and RTL design as project priorities change.\nA strong inclination to learn how the analog circuitry behaves. Analog expertise is not required; the team will provide support to help you ramp up.\nStrong teamwork and outstanding interpersonal skills.\n \nWays to stand out from the crowd:\nExperience with digital control logic in power management or a related system.\nStrong knowledge of, or experience working with, mixed-signal and custom-designed IP solutions.\nUnderstanding of firmware and embedded controllers.\nPrior exposure to analog design and mixed-signal simulation.\n \nTogether, let’s push the boundaries of innovation and make a lasting impact on the world. Make the choice, join our diverse team today!\n \n#LI-Hybrid",
+  "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India-Bengaluru/Mixed-Signal-Design-Engineer---RTL-and-Co-Simulation_JR2027731",
+  "postedMs": 1792787433594,
+  "ageDays": 0,
+  "employment": "Full time",
+  "firstSeenMs": 1792787433594,
+  "hourly": false
  }
 }
