@@ -12,5 +12,19 @@
   "employment": "FullTime",
   "firstSeenMs": 1794333027868,
   "hourly": false
+ },
+ "greenhouse:brave:8374405": {
+  "key": "greenhouse:brave:8374405",
+  "company": "Brave",
+  "ats": "greenhouse",
+  "dayOnly": false,
+  "title": "Web3 Core Engineer",
+  "location": "Remote",
+  "text": "Web3 Core Engineer\n\nRemote\n\nAbout Brave\n\nBrave is on a mission to protect the human right to privacy online. We’ve built a free web browser that blocks creepy ads and trackers by default, a private search engine with a truly independent index, a browser-native crypto wallet, and a private ad network (opt-in!) that directly rewards you for your attention. And we’re just getting started. Already 125 million people have switched to Brave for a faster, more private web. Millions more switch every month.\n\nThe internet is a sea of ads, hackers, and echo chambers. Big Tech makes huge profits off our data, and tells us what’s true and what’s not. Brave is fighting back. Join us!\n\nSummary\n\nBrave is looking for an experienced Senior Software Engineer with a focus on blockchain integrations with Brave.  You'll work on our Brave Wallet.  This is a high profile and impactful, hands-on position.  Work together with our product designers, developers and privacy/security experts to help us take our wallet to the next level.\n\nYour responsibilities:\n\nWork closely with the backend team to understand intricacies and help iterate on components used to build our wallet libraries.\n\nIntegrate new features in brave-core that help our front-end team connect prototypes to live data.\n\nBe up-to-date with upcoming protocol upgrades, BIPs, EIPs, etc.\n\nBe involved in investigating bugs around blockchain edge cases.\n\nRequirements\n\n5+ years experience with application development.\n\nStrong C++ development skills required.\n\nSome JavaScript / TypeScript development skills are a plus.\n\nHistory of open source contributions.\n\nGood understanding of blockchain protocols (Bitcoin, Ethereum, Solana, etc.) and the DeFi ecosystem are a plus.\n\nFamiliarity with cryptocurrency wallet stack (mechanics, UX, etc.).\n\nExperience with software development via distributed development teams.\n\nComfortable working in an open source setting.\n\nA passion for helping protect users' privacy and security.\n\nWritten and verbal communication skills in English.\n\nProven record of getting things done.\n\nWorking at Brave\n\nIndustry-leader in privacy, with a research and engineering team that’s innovating everyday to keep people safer online and beat Big Tech\n\nHighly competitive salaries & benefits, and generous home-office stipends\n\nFully remote team (no office, no commute)\n\nWelcoming, humble, ridiculously smart teammates, and a truly flat org structure\n\nOpportunity to get in early at a hyper-growth company, and revolutionize the web\n\nOh, and did we mention Brendan, our CEO & co-founder, invented JavaScript?",
+  "url": "https://job-boards.greenhouse.io/brave/jobs/8374405",
+  "postedMs": 1794341033000,
+  "employment": null,
+  "firstSeenMs": 1794341430902,
+  "hourly": false
  }
 }
