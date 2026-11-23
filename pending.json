@@ -54,5 +54,21 @@
   "employment": "Full-time",
   "firstSeenMs": 1795458635117,
   "hourly": false
+ },
+ "workday:crowdstrike:/job/USA---Sunnyvale-CA/Product-Engineering-Intern---Threat-Detection_R30621": {
+  "key": "workday:crowdstrike:/job/USA---Sunnyvale-CA/Product-Engineering-Intern---Threat-Detection_R30621",
+  "company": "CrowdStrike",
+  "ats": "workday",
+  "dayOnly": true,
+  "title": "Product Engineering Intern - Threat Detection",
+  "location": "Several locations",
+  "locationPending": true,
+  "text": "",
+  "url": "https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/USA---Sunnyvale-CA/Product-Engineering-Intern---Threat-Detection_R30621",
+  "postedMs": 1795468228283,
+  "ageDays": 0,
+  "employment": null,
+  "firstSeenMs": 1795468228283,
+  "hourly": false
  }
 }
